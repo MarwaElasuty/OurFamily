@@ -823,32 +823,17 @@ button[name="try-btn"]{
     .colored-div{
         width: 79%;
     }
-    .payment>div:nth-of-type(1) {
-        margin-bottom: 75px;
-    
-    }
-
-    .payment>div:nth-of-type(3) {
-        margin-bottom: 75px;
-    
-    }
+   
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     .payment>div {
-        width: 100%;
+        width: 33%;
     }
     .colored-div{
         width: 79%;
     }
-    .payment>div:nth-of-type(1) {
-        margin-bottom: 75px;
-    
-    }
-    .payment>div:nth-of-type(3) {
-        margin-bottom: 75px;
-    
-    }
+  
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
