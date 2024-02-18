@@ -757,7 +757,7 @@ img[alt="user"] {
 .payment {
     display: flex;
     justify-content: center;
-    width: 85%;
+    width: 89%;
     margin: auto;
     flex-wrap: wrap;
     row-gap: 20px;
