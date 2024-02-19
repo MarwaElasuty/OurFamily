@@ -14,7 +14,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 89%;
+    width: 90%;
     margin: auto;
     column-gap: 27px;
 }
@@ -79,7 +79,7 @@ button[name="start"] {
     border-radius: 9px;
 }
 
-img[alt="rating"]{
+img[alt="rating"] {
     width: 100%;
 }
 
@@ -190,6 +190,7 @@ img[alt="menu-burger"] {
         color: black;
         border-radius: 9px;
     }
+
     ul a {
         color: white;
     }
@@ -258,6 +259,7 @@ img[alt="menu-burger"] {
     ul {
         flex-direction: column;
     }
+
     button[name="start"] {
         padding: 11px;
         background-color: white;
@@ -343,6 +345,7 @@ img[alt="menu-burger"] {
         color: black;
         border-radius: 9px;
     }
+
     ul {
         flex-direction: column;
     }
@@ -426,17 +429,18 @@ img[alt="menu-burger"] {
 .background-cards {
     display: flex;
     width: 85%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
     row-gap: 20px;
 }
 
 
-.background-cards h3{
+.background-cards h3 {
     margin-top: 5px;
     margin-bottom: 15px;
 }
+
 .background-btns {
     margin-top: 41px;
 }
@@ -466,7 +470,7 @@ img[alt="menu-burger"] {
     padding: 20px;
 }
 
-.background-heading{
+.background-heading {
     width: 81%;
     margin: auto;
 }
@@ -485,7 +489,7 @@ img[alt="menu-burger"] {
 }
 
 .background-cards>div {
-    width: 27%;
+    width: 29%;
     margin-top: -112px;
     background-color: white;
     padding: 39px;
@@ -495,7 +499,7 @@ img[alt="menu-burger"] {
 .description-cards {
     display: flex;
     width: 85%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
     row-gap: 25px;
@@ -504,7 +508,7 @@ img[alt="menu-burger"] {
 
 }
 
-.description-cards h3{
+.description-cards h3 {
     margin-top: 5px;
 
     margin-bottom: 15px;
@@ -530,13 +534,16 @@ img[alt="menu-burger"] {
     .description-cards>div {
         width: 45%;
     }
-    .background-desc > h1 {
+
+    .background-desc>h1 {
         width: 100%;
     }
-    .background-heading{
+
+    .background-heading {
         width: 100%;
     }
-    .background-desc>p{
+
+    .background-desc>p {
         width: 100%;
     }
 }
@@ -552,13 +559,15 @@ img[alt="menu-burger"] {
 
     }
 
-    .background-desc > h1 {
+    .background-desc>h1 {
         width: 100%;
     }
-    .background-heading{
+
+    .background-heading {
         width: 100%;
     }
-    .background-desc>p{
+
+    .background-desc>p {
         width: 100%;
     }
 }
@@ -572,10 +581,12 @@ img[alt="menu-burger"] {
     .description-cards>div {
         width: 100%;
     }
-    .background-heading{
+
+    .background-heading {
         width: 100%;
     }
-    .background-desc>p{
+
+    .background-desc>p {
         width: 100%;
     }
 }
@@ -590,10 +601,12 @@ img[alt="menu-burger"] {
         width: 100%;
 
     }
-    .background-heading{
+
+    .background-heading {
         width: 100%;
     }
-    .background-desc>p{
+
+    .background-desc>p {
         width: 100%;
     }
 
@@ -606,7 +619,7 @@ img[alt="menu-burger"] {
     padding: 20px;
 }
 
-.industry-desc > h2{
+.industry-desc>h2 {
     font-size: 49px;
     margin-bottom: 15px
 }
@@ -619,7 +632,7 @@ img[alt="menu-burger"] {
 
 .client-cards {
     display: flex;
-    width: 80%;
+    width: 85%;
     justify-content: space-evenly;
     margin: auto;
     flex-wrap: wrap;
@@ -627,29 +640,31 @@ img[alt="menu-burger"] {
     margin-top: 30px;
 }
 
-.client-cards img:nth-of-type(2){
+.client-cards img:nth-of-type(2) {
     margin-top: 20px;
 }
 
 .client-cards>div {
-    width: 30%;
+    width: 33%;
     padding: 45px;
     text-align: center;
     box-shadow: 2px 5px 6px gainsboro;
 }
 
-input[name="email-input"]{
-    padding: 15.3px;
+input[name="email-input"] {
+    padding: 17.3px;
     border-radius: 3px;
     border-style: none;
 }
-button[name="subscribe-btn"]{
+
+button[name="subscribe-btn"] {
     padding: 13px;
     background-color: #1b3a90;
     color: white;
     border-style: none;
-    font-size: 18px;
+    font-size: 22px;
 }
+
 /* clients media query */
 @media screen and (max-width: 1200px) and (min-width:992px) {
 
@@ -660,15 +675,17 @@ button[name="subscribe-btn"]{
     .industry-desc>p {
         width: 88%;
     }
-    img[alt="world-img"]{
+
+    img[alt="world-img"] {
         display: none;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
-    img[alt="world-img"]{
+    img[alt="world-img"] {
         display: none;
     }
+
     .client-cards>div {
         width: 100%;
     }
@@ -679,9 +696,10 @@ button[name="subscribe-btn"]{
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
-    img[alt="world-img"]{
+    img[alt="world-img"] {
         display: none;
     }
+
     .client-cards>div {
         width: 100%;
     }
@@ -692,9 +710,10 @@ button[name="subscribe-btn"]{
 }
 
 @media screen and (max-width: 600px) {
-    img[alt="world-img"]{
+    img[alt="world-img"] {
         display: none;
     }
+
     .client-cards>div {
         width: 100%;
     }
@@ -717,7 +736,7 @@ img[alt="user"] {
 
 .sponsors {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
     width: 80%;
@@ -727,7 +746,7 @@ img[alt="user"] {
 }
 
 .colored-div {
-    width: 77%;
+    width: 84.3%;
     margin: auto;
     border-style: none;
     border-radius: 15px;
@@ -739,12 +758,14 @@ img[alt="user"] {
     align-items: center;
     padding: 44px;
     margin-top: 90px;
+    column-gap: 11px;
 }
+
 
 .colored-div h4 {
     color: white;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 32px;
 }
 
 .input-w-subscribe-btn {
@@ -764,7 +785,7 @@ img[alt="user"] {
     margin-top: 110px;
 }
 
-button[name="try-btn"]{
+button[name="try-btn"] {
     padding: 13px;
     width: 100%;
     border-radius: 15px;
@@ -774,13 +795,14 @@ button[name="try-btn"]{
     font-size: 19px;
     border-style: none;
 }
+
 .payment>div {
-    width: 33%;
+    width: 31.5%;
     border: 1px solid black;
     background-color: rgb(35, 35, 104);
     color: white;
     padding: 20px;
-    font-size: 23px;
+    font-size: 21px;
     padding-top: 55px;
 }
 
@@ -815,6 +837,7 @@ button[name="try-btn"]{
     font-weight: 600;
 
 }
+
 .payment-heading {
     text-align: center;
 }
@@ -824,54 +847,48 @@ button[name="try-btn"]{
     .payment>div {
         width: 33%;
     }
-    .colored-div{
-        width: 79%;
-    }
-   
+
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     .payment>div {
         width: 50%;
     }
-    .colored-div{
-        width: 79%;
-    }
-  
+
+
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
     .payment>div {
-        width: 83%;
+        width: 75%;
     }
-    .colored-div{
-        width: 79%;
-    }
+
     .payment>div:nth-of-type(1) {
         margin-bottom: 75px;
-    
+
     }
+
     .payment>div:nth-of-type(3) {
         margin-bottom: 75px;
-    
+
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
     .payment>div {
         width: 83%;
     }
-    .colored-div{
-        width: 79%;
-    }
+
+
     .payment>div:nth-of-type(1) {
         margin-bottom: 75px;
-    
+
     }
+
     .payment>div:nth-of-type(3) {
         margin-bottom: 75px;
-    
+
     }
 }
 
@@ -891,74 +908,98 @@ button[name="try-btn"]{
     padding-top: 9px;
 }
 
-.branches h2{
+.branches h2 {
     font-size: 40px;
     margin-bottom: 16px;
 }
 
-.branches-heading{
+.branches-heading {
     width: 60%;
 }
 
-.branches p{
+.branches p {
     line-height: 30px;
     font-size: 20px;
 }
 
-.branches-text{
+.branches-text {
     width: 74%;
 }
 
 .branches>div:nth-of-type(1) {
-    width: 47%;
+    width: 53%;
 }
 
 /* branches media query */
 @media screen and (max-width: 1200px) and (min-width:992px) {
     .branches>div:nth-of-type(1) {
+        width: 91%;
+    }
+
+    .branches-text {
         width: 100%;
     }
-    .branches-text{
+
+    .branches-heading {
         width: 100%;
     }
-    .branches-heading{
-        width: 100%;
+
+    .consult {
+        width: 94%;
     }
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     .branches>div:nth-of-type(1) {
+        width: 91%;
+    }
+
+    .branches-text {
         width: 100%;
     }
-    .branches-text{
+
+    .branches-heading {
         width: 100%;
     }
-    .branches-heading{
-        width: 100%;
+
+    .consult {
+        width: 94%;
     }
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
     .branches>div:nth-of-type(1) {
+        width: 91%;
+    }
+
+    .branches-text {
         width: 100%;
     }
-    .branches-text{
+
+    .branches-heading {
         width: 100%;
     }
-    .branches-heading{
-        width: 100%;
+
+    .consult {
+        width: 94%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .branches>div:nth-of-type(1) {
+        width: 91%;
+    }
+
+    .branches-heading {
         width: 100%;
     }
-    .branches-heading{
+
+    .branches-text {
         width: 100%;
     }
-    .branches-text{
-        width: 100%;
+
+    .consult {
+        width: 94%;
     }
 }
 
@@ -976,10 +1017,11 @@ button[name="try-btn"]{
     background-color: white;
 }
 
-.appointment-heading{
+.appointment-heading {
     margin-bottom: 60px;
     font-size: 28px;
 }
+
 form>div {
     margin-bottom: 15px;
 }
@@ -989,7 +1031,7 @@ form>div {
     padding: 21px;
 }
 
-form input{
+form input {
     padding: 10px;
     width: 100%;
 }
@@ -999,7 +1041,7 @@ form select {
     width: 100%;
 }
 
-button[name = "book-btn"]{
+button[name="book-btn"] {
     padding: 13px;
     background-color: #1b3a90;
     color: white;
@@ -1010,7 +1052,7 @@ button[name = "book-btn"]{
     border-style: none;
 }
 
-button[name="contact"]{
+button[name="contact"] {
     padding: 17px;
     background-color: #1b3a90;
     color: white;
@@ -1029,7 +1071,7 @@ label {
 /* appointment media query */
 @media screen and (max-width: 1200px) and (min-width:992px) {
     .appointment {
-        width: 100%;
+        width: 88%;
     }
 
     .appointment>div:nth-of-type(1) {
@@ -1044,7 +1086,7 @@ label {
 
 @media screen and (max-width: 992px) and (min-width:786px) {
     .appointment {
-        width: 100%;
+        width: 88%;
     }
 
     .appointment>div:nth-of-type(1) {
@@ -1060,7 +1102,7 @@ label {
 
 @media screen and (max-width: 786px) and (min-width:600px) {
     .appointment {
-        width: 100%;
+        width: 88%;
     }
 
     .appointment>div:nth-of-type(1) {
@@ -1076,7 +1118,7 @@ label {
 
 @media screen and (max-width: 600px) {
     .appointment {
-        width: 100%;
+        width: 88%;
     }
 
     .appointment>div:nth-of-type(1) {
@@ -1093,30 +1135,57 @@ label {
 
 .consult {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     row-gap: 20px;
     padding: 30px;
-    margin-top: 70px;
     column-gap: 16px;
+    width: 88%;
+    margin: auto;
+    margin-top: 70px;
+
 }
 
-.consult p{
+.consult p {
     font-size: 20px;
 }
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 28px;
     column-gap: 41px;
     font-size: 20px;
     padding: 20px;
+    width: 86%;
+    margin: auto;
     margin-top: 60px;
 }
 
 .display {
     display: block;
+}
+
+/* footer media query */
+@media  screen and (max-width: 1200px) and (min-width:992px) {
+    footer{
+        width: 93%;
+    }
+}
+@media  screen and (max-width: 992px) and (min-width:786px) {
+    footer{
+        width: 93%;
+    }
+}
+@media  screen and (max-width: 786px) and (min-width:600px) {
+    footer{
+        width: 93%;
+    }
+}
+@media  screen and (max-width: 600px){
+    footer{
+        width: 93%;
+    }
 }
