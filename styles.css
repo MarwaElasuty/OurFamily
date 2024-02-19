@@ -429,12 +429,12 @@ img[alt="menu-burger"] {
 .background-cards {
     display: flex;
     width: 85%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
     flex-wrap: wrap;
     row-gap: 20px;
+    column-gap: 10px;
 }
-
 
 .background-cards h3 {
     margin-top: 5px;
@@ -489,7 +489,7 @@ img[alt="menu-burger"] {
 }
 
 .background-cards>div {
-    width: 29%;
+    width: 32.2%;
     margin-top: -112px;
     background-color: white;
     padding: 39px;
@@ -499,12 +499,12 @@ img[alt="menu-burger"] {
 .description-cards {
     display: flex;
     width: 85%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
     flex-wrap: wrap;
-    row-gap: 25px;
+    row-gap: 20px;
+    column-gap: 10px;
     margin-top: 85px;
-    padding: 25px;
 
 }
 
@@ -1171,21 +1171,21 @@ footer {
 /* footer media query */
 @media  screen and (max-width: 1200px) and (min-width:992px) {
     footer{
-        width: 93%;
+        width: 90%;
     }
 }
 @media  screen and (max-width: 992px) and (min-width:786px) {
     footer{
-        width: 93%;
+        width: 90%;
     }
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
     footer{
-        width: 93%;
+        width: 90%;
     }
 }
 @media  screen and (max-width: 600px){
     footer{
-        width: 93%;
+        width: 90%;
     }
 }
